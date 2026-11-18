@@ -26,3 +26,21 @@ runs/
 /garbages/
 /flagged/
 /experimental/
+
+# Custom local application
+app_vc_original_backup.py
+
+# Private recordings and generated audio
+private_audio/
+outputs/
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.webm
+
+# Local secrets
+.env
+.env.*
+!.env.example
